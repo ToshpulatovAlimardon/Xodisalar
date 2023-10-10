@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    block-size: border-box;
+}
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 30px;
+    outline: none;
+    width: 300px;
+    background-color: aquamarine;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 10px 0 10px;
+    transition: all .3s ease;
+    border-bottom: 4px solid blueviolet;
+}
+button:hover {
+    border: 10px 0 10px 0;
+    border-bottom: 7px solid blueviolet;
+}
+.overly {
+    width: 100%;
+    padding: 30px;
+    background-color: burlywood;
+}
